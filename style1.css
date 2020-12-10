@@ -1,0 +1,100 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+h1 {
+    font-size:62.5%;
+}
+
+h2 {
+ font-size: 4.6rem;
+ padding: 3rem;
+}
+
+p {
+    font-size: 2.3rem;
+    padding: 3rem;
+}
+li {
+    font-size: 2.4rem;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+/* Hero */
+#hero {
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    min-height: 90vh;
+    color: white;
+}
+
+main {
+    background: linear-gradient( rgba(0, 0, 0, 0.7), transparent),url("images/kayak.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(237, 228, 217);
+}
+
+button {
+    padding: 3rem 6rem;
+    color:black;
+    background-color: blanchedalmond;
+    border: none;
+    border-radius: 2rem;
+    margin-bottom: 35rem;
+    cursor: pointer;
+    opacity: 0.7:
+    font-size:3rem;
+    transition: 0.5s;
+}
+
+button:hover {
+    border-radius: 2rem;
+opacity: 1;
+}
+
+
+/* Header */
+
+header {
+    background-color: rgba(184, 10, 10, 0.856);
+    color: black;
+}
+
+nav {
+    min-height: 10vh;
+    display: flex;
+    width: 90%;
+    margin: auto;
+    align-items:center;
+    flex-wrap: wrap;
+    padding:3rem;
+}
+
+ul {
+    list-style: none;
+    display:flex;
+    flex: 0 0 50%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#logo {
+    flex: 0 0 50%;
+    font-family: impact, sans-serif;
+}
